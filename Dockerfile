@@ -7,4 +7,4 @@ RUN npm run build
 
 FROM nginx
 COPY --from=tapan /app/build /usr/share/nginx/html
-
+EXPOSE 80
